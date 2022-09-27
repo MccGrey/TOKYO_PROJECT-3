@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.header {
+  background-color: rgb(104, 101, 252);
+  margin: auto;
+  position: relative;
+}
+
+.headerSearch {
+  margin-left: 8rem;
+  width: 80%;
+  height: 60px;
+  background-color: white;
+  border: 1px solid rgb(197, 197, 197);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+}
+
+.headerIcon {
+  color: rgb(104, 101, 252);
+  font-size: 1.3rem;
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+  width: 18rem;
+}
+
+button {
+  width: 5rem;
+  height: 2.7rem;
+  color: white;
+  background: rgb(104, 101, 252);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  transition: all 600ms ease;
+}
+
+button:hover {
+  background: rgb(189, 188, 255);
+  color: black;
+}
