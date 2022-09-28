@@ -53,3 +53,9 @@ button:hover {
   background: rgb(189, 188, 255);
   color: black;
 }
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 600px) {
+}
