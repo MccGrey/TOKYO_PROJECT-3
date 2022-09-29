@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "images": "IMG1",
+    "lastPosted": "5h ago ● Full Time",
+    "role": "Senior Software Engineer",
+    "firm": "Scoot",
+    "country": "United Kingdom",
+    "link": "/stacks"
+  },
+
+  {
+    "id": 2,
+    "images": "IMG2",
+    "lastPosted": "20h ago ● Part Time",
+    "role": "Haskell and PurpleScript Dev.",
+    "firm": "Blogr",
+    "country": "United States",
+    "link": "/stacks/:id"
+  },
+
+  {
+    "id": 3,
+    "images": "IMG3",
+    "lastPosted": "1d ago ● Part Time",
+    "role": "MidLevel Backend Engineer",
+    "firm": "Vector",
+    "country": "Russia",
+    "link": "/stacks1"
+  },
+
+  {
+    "id": 4,
+    "images": "IMG4",
+    "lastPosted": "2d ago ● Full Time",
+    "role": "Senior Application Engineer",
+    "firm": "Office Lite",
+    "country": "Japan",
+    "link": "/stacks2"
+  },
+
+  {
+    "id": 5,
+    "images": "IMG5",
+    "lastPosted": "2d ago ● Part Time",
+    "role": "Remote DevOps Engineer",
+    "firm": "Pod",
+    "country": "Thailand",
+    "link": "/stacks3"
+  },
+
+  {
+    "id": 6,
+    "images": "IMG6",
+    "lastPosted": "4d ago ● Part Time",
+    "role": "Desktop Support Manager",
+    "firm": "Creative",
+    "country": "Germany",
+    "link": "/stacks4"
+  },
+
+  {
+    "id": 7,
+    "images": "IMG7",
+    "lastPosted": "1w ago ● Full Time",
+    "role": "iOS Engineer",
+    "firm": "Pornodoro",
+    "country": "United States",
+    "link": "/stacks5"
+  },
+
+  {
+    "id": 8,
+    "images": "IMG8",
+    "lastPosted": "1w ago ● Full Time",
+    "role": "Senior EJB Engineer",
+    "firm": "Maker",
+    "country": "United Kingdom",
+    "link": "/stacks6"
+  },
+
+  {
+    "id": 9,
+    "images": "IMG9",
+    "lastPosted": "1w ago ● Part Time",
+    "role": "Seinor Frontend Developer",
+    "firm": "CoffeeRoasters",
+    "country": "Singapore",
+    "link": "/stacks7"
+  },
+
+  {
+    "id": 10,
+    "images": "IMG10",
+    "lastPosted": "2w ago ● Freelance",
+    "role": "App & Website Designer",
+    "firm": "Master Craft",
+    "country": "United States",
+    "link": "/stacks8"
+  },
+
+  {
+    "id": 11,
+    "images": "IMG11",
+    "lastPosted": "1mo ago ● Part Time",
+    "role": "Full Stack developer",
+    "firm": "CrowdFund",
+    "country": "New Zealand",
+    "link": "/stacks9"
+  },
+
+  {
+    "id": 12,
+    "images": "IMG12",
+    "lastPosted": "1mo ago ● Part Time",
+    "role": "Technical Lead Engineer",
+    "firm": "Typemaster",
+    "country": "United Kingdom",
+    "link": "/stacks10"
+  }
+]

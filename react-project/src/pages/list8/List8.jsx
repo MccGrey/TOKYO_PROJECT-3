@@ -1,9 +1,8 @@
 import React from "react";
 import Navbar from "../../components/navbar/Navbar";
-import IMG1 from "../../assets/Closes.jpg";
-import "./list.css";
+import IMG8 from "../../assets/Popss.jpg";
 
-const List = () => {
+const List8 = () => {
   return (
     <div>
       <Navbar />
@@ -11,12 +10,12 @@ const List = () => {
         <div className="modalContainer">
           <div className="modalTitle">
             <div className="modalTitle-image">
-              <img src={IMG1} alt="scoot-logo" />
+              <img src={IMG8} alt="Maker-logo" />
             </div>
             <div className="modalTile-name">
               <div className="titleName">
                 <h4>
-                  Scoot <br /> <span>scoot.com</span>
+                  Maker <br /> <span>maker.com</span>
                 </h4>
               </div>
               <div className="titleInfo">
@@ -27,8 +26,8 @@ const List = () => {
           <div className="modalBody">
             <div className="modalBody-infos">
               <div className="modalBody-info">
-                <h3>5h ago ● Full Time</h3>
-                <h1>Senior Software Engineer</h1>
+                <h3>1w ago ● Full Time</h3>
+                <h1>Senior EJB Engineer</h1>
                 <small>United Kingdom</small>
               </div>
               <div className="modalApply">
@@ -106,7 +105,8 @@ const List = () => {
           <div className="modalFooter-container">
             <div className="modalFooter-name">
               <h4>
-                Senior Software Engineer <br /> <span>Scoot</span>
+                Senior EJB Engineer
+                <br /> <span>Maker</span>
               </h4>
             </div>
             <div className="modalApply">
@@ -119,4 +119,4 @@ const List = () => {
   );
 };
 
-export default List;
+export default List8;

@@ -1,0 +1,207 @@
+.modalBackground {
+  margin-top: -5.5rem;
+}
+
+.modalContainer {
+  width: 70%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.modalTitle {
+  width: 100%;
+  height: 8rem;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  background: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.titleName {
+  margin-left: 1rem;
+}
+
+.titleName h4 {
+  font-size: 1.5rem;
+}
+.titleName h4 > span {
+  color: rgb(177, 177, 177);
+  font-size: 1rem;
+}
+
+.modalTile-name .titleInfo > button {
+  width: 8rem;
+  background: rgb(225, 224, 255);
+  color: rgb(57, 53, 255);
+  font-weight: 800;
+  margin-top: 0.7rem;
+  transition: all 600ms ease-in;
+}
+
+.modalTile-name .titleInfo > button:hover {
+  background: rgb(126, 124, 255);
+  color: white;
+}
+.modalTile-name {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 0 12px;
+}
+
+.modalTitle-image img {
+  width: 10rem;
+  height: 8rem;
+  margin-top: 4px;
+  border-radius: 7px 0 0 7px;
+  object-fit: cover;
+}
+.modalBody {
+  padding: 35px;
+  background: white;
+  border-radius: 7px;
+  margin-top: 2.5rem;
+}
+.modalBody-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.7rem;
+}
+p,
+ul,
+ol {
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+  color: grey;
+}
+
+.modalBody h4,
+.modalBody h3 {
+  margin-bottom: 1rem;
+}
+
+.modalBody-info small {
+  color: rgb(57, 53, 255);
+}
+
+.modalBody-info h3 {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.modalFooter {
+  width: 100%;
+  height: 5rem;
+  background: white;
+  margin-top: 3.5rem;
+  border-radius: 7px;
+}
+
+.modalFooter-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalFooter-name,
+.modalApply {
+  margin-top: 1.5rem;
+}
+
+.modalFooter-name h4 > span {
+  color: grey;
+}
+@media screen and (max-width: 1024px) {
+  .modalContainer {
+    width: 96%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .modalTitle {
+    width: 100%;
+    height: 6rem;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    background: white;
+  }
+
+  .modalTitle-image img {
+    height: 6rem;
+    width: 8rem;
+    margin-top: 4px;
+    border-radius: 7px 0 0 7px;
+  }
+
+  .modalTile-name {
+    justify-content: space-between;
+  }
+
+  .titleName h4 {
+    font-size: 1.2rem;
+  }
+
+  .modalFooter-container {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .modalContainer {
+    width: 96%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .modalTitle-image img {
+    height: 4rem;
+    width: 6rem;
+    margin-top: 4px;
+    border-radius: 7px 0 0 7px;
+  }
+
+  .modalTitle {
+    width: 100%;
+    height: 4rem;
+    border: 1px solid transparent;
+    border-radius: 7px;
+  }
+
+  .modalTile-name {
+    gap: 7rem;
+  }
+
+  .modalTile-name .titleInfo > button {
+    width: 6rem;
+    background: rgb(225, 224, 255);
+    color: rgb(57, 53, 255);
+    font-weight: 500;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    margin-left: -3rem;
+  }
+
+  .titleName h4 {
+    font-size: 1rem;
+  }
+
+  .modalBody-info h3 {
+    font-size: 1rem;
+  }
+
+  .modalBody-info h1 {
+    font-size: 1.3rem;
+  }
+
+  .modalBody-info small {
+    color: rgb(57, 53, 255);
+  }
+
+  .modalFooter-container {
+    width: 96%;
+  }
+}
