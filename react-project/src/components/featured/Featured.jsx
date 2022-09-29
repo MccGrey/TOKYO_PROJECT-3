@@ -1,5 +1,7 @@
 import React from "react";
 import "./featured.css";
+import { Link } from "react-router-dom";
+import { BsArrowRight } from "react-icons/bs";
 import IMG1 from "../../assets/Closes.jpg";
 import IMG2 from "../../assets/MccGrey.png";
 import IMG3 from "../../assets/Multis.jpg";
@@ -13,141 +15,150 @@ import IMG10 from "../../assets/Skulls.jpg";
 import IMG11 from "../../assets/Slicess.jpg";
 import IMG12 from "../../assets/TravisScott.png";
 
+const data = [
+  {
+    id: 1,
+    images: IMG1,
+    lastPosted: "5h ago ● Full Time",
+    role: "Senior Software Engineer",
+    firm: "Scoot",
+    country: "United Kingdom",
+    link: "/stacks",
+  },
+
+  {
+    id: 2,
+    images: IMG2,
+    lastPosted: "20h ago ● Part Time",
+    role: "Haskell and PurpleScript Dev.",
+    firm: "Blogr",
+    country: "United States",
+    link: "/stacks/:id",
+  },
+
+  {
+    id: 3,
+    images: IMG3,
+    lastPosted: "1d ago ● Part Time",
+    role: "MidLevel Backend Engineer",
+    firm: "Vector",
+    country: "Russia",
+    link: "/stacks1",
+  },
+
+  {
+    id: 4,
+    images: IMG4,
+    lastPosted: "2d ago ● Full Time",
+    role: "Senior Application Engineer",
+    firm: "Office Lite",
+    country: "Japan",
+    link: "/stacks2",
+  },
+
+  {
+    id: 5,
+    images: IMG5,
+    lastPosted: "2d ago ● Part Time",
+    role: "Remote DevOps Engineer",
+    firm: "Pod",
+    country: "Thailand",
+    link: "/stacks3",
+  },
+
+  {
+    id: 6,
+    images: IMG6,
+    lastPosted: "4d ago ● Part Time",
+    role: "Desktop Support Manager",
+    firm: "Creative",
+    country: "Germany",
+    link: "/stacks4",
+  },
+
+  {
+    id: 7,
+    images: IMG7,
+    lastPosted: "1w ago ● Full Time",
+    role: "iOS Engineer",
+    firm: "Pornodoro",
+    country: "United States",
+    link: "/stacks5",
+  },
+
+  {
+    id: 8,
+    images: IMG8,
+    lastPosted: "1w ago ● Full Time",
+    role: "Senior EJB Engineer",
+    firm: "Maker",
+    country: "United Kingdom",
+    link: "/stacks6",
+  },
+
+  {
+    id: 9,
+    images: IMG9,
+    lastPosted: "1w ago ● Part Time",
+    role: "Seinor Frontend Developer",
+    firm: "CoffeeRoasters",
+    country: "Singapore",
+    link: "/stacks7",
+  },
+
+  {
+    id: 10,
+    images: IMG10,
+    lastPosted: "2w ago ● Freelance",
+    role: "App & Website Designer",
+    firm: "Master Craft",
+    country: "United States",
+    link: "/stacks8",
+  },
+
+  {
+    id: 11,
+    images: IMG11,
+    lastPosted: "1mo ago ● Part Time",
+    role: "Full Stack developer",
+    firm: "CrowdFund",
+    country: "New Zealand",
+    link: "/stacks9",
+  },
+
+  {
+    id: 12,
+    images: IMG12,
+    lastPosted: "1mo ago ● Part Time",
+    role: "Technical Lead Engineer",
+    firm: "Typemaster",
+    country: "United Kingdom",
+    link: "/stacks10",
+  },
+];
+
 const Featured = () => {
   return (
     <div className="featured">
       <div className="featuredItems">
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h5>5h ago ● Full Time</h5>
-          <h3>Senior Software Engineer</h3>
-          <h5>Scoot</h5>
-          <br />
-          <small>United Kingdom</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG2} alt="" />
-          </div>
-          <h5>20h ago ● Part Time</h5>
-          <h3>Haskell and PurpleScript Dev.</h3>
-          <h5>Blogr</h5>
-          <br />
-          <small>United States</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG3} alt="" />
-          </div>
-          <h5>1d ago ● Part Time</h5>
-          <h3>MidLevel Backend Engineer</h3>
-          <h5>Vector</h5>
-          <br />
-          <small>Russia</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h5>2d ago ● Full Time</h5>
-          <h3>Senior Application Engineer</h3>
-          <h5>Office Lite</h5>
-          <br />
-          <small>Japan</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h5>2d ago ● Part Time</h5>
-          <h3>Remote DevOps Engineer</h3>
-          <h5>Pod</h5>
-          <br />
-          <small>Thailand</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG6} alt="" />
-          </div>
-          <h5>4d ago ● Part Time</h5>
-          <h3>Desktop Support Manager</h3>
-          <h5>Creative</h5>
-          <br />
-          <small>Germany</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG7} alt="" />
-          </div>
-          <h5>1w ago ● Full Time</h5>
-          <h3>iOS Engineer</h3>
-          <h5>Pornodoro</h5>
-          <br />
-          <small>United States</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG8} alt="" />
-          </div>
-          <h5>1w ago ● Full Time</h5>
-          <h3>Senior EJB Engineer</h3>
-          <h5>Maker</h5>
-          <br />
-          <small>United Kingdom</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG9} alt="" />
-          </div>
-          <h5>1w ago ● Part Time</h5>
-          <h3>Seinor Frontend Developer</h3>
-          <h5>CoffeeRoasters</h5>
-          <br />
-          <small>Singapore</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG10} alt="" />
-          </div>
-          <h5>2w ago ● Freelance</h5>
-          <h3>App & Website Designer</h3>
-          <h5>Master Craft</h5>
-          <br />
-          <small>United States</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG11} alt="" />
-          </div>
-          <h5>1mo ago ● Part Time</h5>
-          <h3>Full Stack developer</h3>
-          <h5>CrowdFund</h5>
-          <br />
-          <small>New Zealan</small>
-        </article>
-
-        <article className="featuredItem">
-          <div className="item-image">
-            <img src={IMG12} alt="" />
-          </div>
-          <h5>1mo ago ● Part Time</h5>
-          <h3>Technical Lead Engineer</h3>
-          <h5>Typemaster</h5>
-          <br />
-          <small>United Kingdom</small>
-        </article>
+        {data.map((record) => {
+          return (
+            <article className="featuredItem" key={record.id}>
+              <div className="item-image">
+                <img src={record.images} alt="" />
+              </div>
+              <h5>{record.lastPosted}</h5>
+              <h3>{record.role}</h3>
+              <h5>{record.firm}</h5>
+              <br />
+              <small>{record.country}</small> <br />
+              <Link to={record.link} target={"_blank"} className="li">
+                Learn More
+                <BsArrowRight className="li-icon" />
+              </Link>
+            </article>
+          );
+        })}
       </div>
     </div>
   );

@@ -57,6 +57,21 @@
   color: white;
 }
 
+.featuredItem .li {
+  color: black;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 600ms ease-in;
+}
+
+.featuredItem .li:hover {
+  color: rgb(109, 13, 13);
+}
+
+.featuredItem .li .li-icon {
+  margin-left: 0.4rem;
+}
 @media screen and (max-width: 1024px) {
   .featuredItems {
     grid-template-columns: 1fr 1fr;
