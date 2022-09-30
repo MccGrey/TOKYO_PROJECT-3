@@ -1,3 +1,29 @@
+:root {
+  --background: rgb(255, 255, 255);
+  --background-secondary: rgb(104, 101, 252);
+  --background-secondary-variant: rgb(189, 188, 255);
+  --text-primary: white;
+  --text-secondary: black;
+  --accent: rgb(168, 168, 168);
+  --accent-variant: rgb(235, 235, 235);
+  --border: rgb(2, 0, 119);
+  --card-bg: rgb(197, 197, 197);
+  --color-btn: rgb(57, 53, 255);
+}
+
+[data-theme="dark"] {
+  --background: rgb(0, 0, 0);
+  --background-secondary: rgb(26, 87, 27);
+  --background-secondary-variant: rgb(3, 90, 26);
+  --text-primary: rgb(0, 0, 0);
+  --text-secondary: rgb(255, 255, 255);
+  --accent: rgb(168, 168, 168);
+  --accent-variant: rgb(39, 39, 39);
+  --border: rgb(142, 185, 157);
+  --card-bg: rgb(78, 78, 78);
+  --color-btn: rgb(8, 43, 15);
+}
+
 .featured {
   width: 80%;
   margin: auto;
@@ -8,20 +34,27 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  margin-bottom: 3rem;
 }
 
+.featured button {
+  margin-left: 45%;
+  width: 8rem;
+  margin-bottom: 3rem;
+}
 .featuredItem {
-  background: rgb(255, 255, 255);
+  background: var(--background);
   padding: 1.3rem;
   border-radius: 0.5rem;
   border: 1px solid transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: all 600ms ease;
 }
 
 .featuredItem:hover {
-  border-color: rgb(2, 0, 119);
-  background: rgb(104, 101, 252);
-  color: white;
+  border-color: var(--border);
+  background: var(--background-secondary);
+  color: var(--text-primary);
 }
 
 .item-image img {
@@ -34,10 +67,11 @@
 
 .featuredItem h3 {
   font-size: 1rem;
+  color: var(--text-secondary);
 }
 
 .featuredItem h5 {
-  color: rgb(168, 168, 168);
+  color: var(--accent);
   transition: all 600ms ease;
 }
 
@@ -45,20 +79,20 @@
   margin-bottom: 4rem;
 }
 .featuredItem:hover h5 {
-  color: black;
+  color: var(--text-secondary);
 }
 
 .featuredItem small {
-  color: rgb(104, 101, 252);
+  color: var(--background-secondary);
   transition: all 600ms ease;
 }
 
 .featuredItem:hover small {
-  color: white;
+  color: var(--text-primary);
 }
 
 .featuredItem .li {
-  color: black;
+  color: var(--text-secondary);
   font-size: 0.8rem;
   text-decoration: none;
   font-weight: 500;
@@ -77,11 +111,19 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+
+  .featured button {
+    margin-left: 43%;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .featuredItems {
     grid-template-columns: 1fr;
     gap: 0.8rem;
+  }
+
+  .featured button {
+    margin-left: 35%;
   }
 }

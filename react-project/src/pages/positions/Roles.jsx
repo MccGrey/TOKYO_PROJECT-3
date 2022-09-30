@@ -1,10 +1,21 @@
 import React from "react";
 import Navbar from "../../components/navbar/Navbar";
 import IMG2 from "../../assets/MccGrey.png";
+import { BsSunFill } from "react-icons/bs";
+import { HiMoon } from "react-icons/hi";
+import { BsToggleOn } from "react-icons/bs";
+import useLocalStorage from "use-local-storage";
 
 const Roles = () => {
+  const [theme, setTheme] = useLocalStorage("theme" ? "dark" : "light");
+
+  const switchTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+  };
+
   return (
-    <div>
+    <div data-theme={theme}>
       <Navbar />
       <div className="modalBackground">
         <div className="modalContainer">
@@ -113,6 +124,11 @@ const Roles = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="toggle-icons-page">
+        <BsSunFill />
+        <BsToggleOn className="toggle-icon-toggler" onClick={switchTheme} />
+        <HiMoon />
       </div>
     </div>
   );

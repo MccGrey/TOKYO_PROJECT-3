@@ -2,11 +2,23 @@ import React from "react";
 import Navbar from "../../components/navbar/Navbar";
 import IMG1 from "../../assets/Closes.jpg";
 import "./list.css";
+import { BsSunFill } from "react-icons/bs";
+import { HiMoon } from "react-icons/hi";
+import { BsToggleOn } from "react-icons/bs";
+import useLocalStorage from "use-local-storage";
 
 const List = () => {
+  const [theme, setTheme] = useLocalStorage("theme" ? "dark" : "light");
+
+  const switchTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+  };
+
   return (
-    <div>
+    <div data-theme={theme}>
       <Navbar />
+
       <div className="modalBackground">
         <div className="modalContainer">
           <div className="modalTitle">
@@ -114,6 +126,11 @@ const List = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="toggle-icons-page">
+        <BsSunFill />
+        <BsToggleOn className="toggle-icon-toggler" onClick={switchTheme} />
+        <HiMoon />
       </div>
     </div>
   );
