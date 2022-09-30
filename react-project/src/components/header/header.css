@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 .header {
-  background-color: rgb(104, 101, 252);
+  background-color: var(--background-secondary);
   margin: auto;
   position: relative;
 }
@@ -10,8 +10,8 @@
   margin-left: 8rem;
   width: 80%;
   height: 60px;
-  background-color: white;
-  border: 1px solid rgb(197, 197, 197);
+  background-color: var(--text-primary);
+  border: 1px solid var(--card-bg);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -19,10 +19,11 @@
   border-radius: 5px;
   position: absolute;
   bottom: -25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .headerIcon {
-  color: rgb(104, 101, 252);
+  color: var(--background-secondary);
   font-size: 1.3rem;
 }
 
@@ -41,8 +42,8 @@
 button {
   width: 5rem;
   height: 2.7rem;
-  color: white;
-  background: rgb(104, 101, 252);
+  color: var(--text-primary);
+  background: var(--background-secondary);
   border-radius: 5px;
   outline: none;
   border: none;
@@ -50,8 +51,8 @@ button {
 }
 
 button:hover {
-  background: rgb(189, 188, 255);
-  color: black;
+  background: var(--background-secondary-variant);
+  color: var(--text-secondary);
 }
 
 @media screen and (max-width: 1024px) {
@@ -63,20 +64,20 @@ button:hover {
   }
 
   .headerSearchInput {
-    width: 10rem;
+    width: 9rem;
   }
 
   .headerSearchItem > button {
     width: 4.5rem;
     height: 1.8rem;
-    color: white;
-    background: rgb(104, 101, 252);
+    color: var(--text-primary);
+    background: var(--background-secondary);
     border-radius: 5px;
   }
 
   .headerSearchItem > button:hover {
-    background: rgb(189, 188, 255);
-    color: black;
+    background: var(--background-secondary-variant);
+    color: var(--text-secondary);
   }
 
   .headerIcon {
@@ -93,6 +94,6 @@ button:hover {
   }
 
   .headerSearchInput {
-    width: 4.5rem;
+    width: 3rem;
   }
 }

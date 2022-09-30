@@ -8,7 +8,7 @@
 }
 .navbar {
   height: 150px;
-  background-color: rgb(104, 101, 252);
+  background-color: var(--background-secondary);
   border-radius: 0 0 0 4rem;
 }
 
@@ -16,7 +16,7 @@
   width: 80%;
   margin: auto;
   max-width: 1024px;
-  color: white;
+  color: var(--text-primary);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,9 +24,22 @@
 
 .logo {
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: var(--background);
 }
 
 .navContainer > div {
   margin-top: 1.5rem;
+}
+
+.toggle-icons {
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  gap: 0.9rem;
+}
+
+.toggle-icons .toggle-icon-toggler {
+  font-size: 2.3rem;
+  margin-top: -10px;
 }

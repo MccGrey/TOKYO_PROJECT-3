@@ -1,6 +1,7 @@
 import "./navbar.css";
 import { BsSunFill } from "react-icons/bs";
 import { HiMoon } from "react-icons/hi";
+import { BsToggleOn } from "react-icons/bs";
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -8,9 +9,9 @@ const Navbar = () => {
         <div>
           <span className="logo">devjobs</span>
         </div>
-        <div>
+        <div className="toggle-icons">
           <BsSunFill />
-          <input type="text" />
+          <BsToggleOn className="toggle-icon-toggler" />
           <HiMoon />
         </div>
       </div>

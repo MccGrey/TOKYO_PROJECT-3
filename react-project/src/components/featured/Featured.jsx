@@ -160,6 +160,7 @@ const Featured = () => {
           );
         })}
       </div>
+      <button>Learn More</button>
     </div>
   );
 };
