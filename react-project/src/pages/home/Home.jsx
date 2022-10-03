@@ -16,7 +16,7 @@ const Home = () => {
   };
 
   return (
-    <div data-theme={theme}>
+    <div className="contain" data-theme={theme}>
       <Navbar />
       <Header />
       <div className="homeContainer">
