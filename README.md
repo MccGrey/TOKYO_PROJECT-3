@@ -1,9 +1,9 @@
 # TOKYO_PROJECT-3
-A simple webpage
+A simple react webpage
 
 # CONTRIBUTORS
 JACINTA
-
+  
 CORNELIUS
 
 TOBY
