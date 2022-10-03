@@ -1,5 +1,5 @@
 # TOKYO_PROJECT-3
-A simple react webpage
+## A single page app (SPR) - REACT
 
 # CONTRIBUTORS
 JACINTA
