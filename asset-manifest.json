@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TOKYO_PROJECT-3/static/css/main.f1334a90.css",
+    "main.js": "/TOKYO_PROJECT-3/static/js/main.acf08544.js",
+    "static/media/Orangeyellows.jpg": "/TOKYO_PROJECT-3/static/media/Orangeyellows.d32c5505d3c34b8aa7ef.jpg",
+    "static/media/Multis.jpg": "/TOKYO_PROJECT-3/static/media/Multis.41792454d561d1e19bca.jpg",
+    "static/media/MccGrey.png": "/TOKYO_PROJECT-3/static/media/MccGrey.6de6096db4f1807ca6af.png",
+    "static/media/TravisScott.png": "/TOKYO_PROJECT-3/static/media/TravisScott.2f66367e5421a973249c.png",
+    "static/media/Pencilss.jpg": "/TOKYO_PROJECT-3/static/media/Pencilss.f662107909c1b29b3399.jpg",
+    "static/media/Nicks.jpg": "/TOKYO_PROJECT-3/static/media/Nicks.331d76c7b75af72a4ba1.jpg",
+    "static/media/Popss.jpg": "/TOKYO_PROJECT-3/static/media/Popss.c3f9f4ffb06bb6efa0c9.jpg",
+    "static/media/Closes.jpg": "/TOKYO_PROJECT-3/static/media/Closes.45498668598ef1627c45.jpg",
+    "static/media/Pinks.jpg": "/TOKYO_PROJECT-3/static/media/Pinks.576407acd19389416c9c.jpg",
+    "static/media/Slicess.jpg": "/TOKYO_PROJECT-3/static/media/Slicess.6ad2ac599b5ae3b50851.jpg",
+    "static/media/Skulls.jpg": "/TOKYO_PROJECT-3/static/media/Skulls.aba7f82663373f92de02.jpg",
+    "static/media/Reds.jpg": "/TOKYO_PROJECT-3/static/media/Reds.a606ed8419fd2c4cedd1.jpg",
+    "index.html": "/TOKYO_PROJECT-3/index.html",
+    "main.f1334a90.css.map": "/TOKYO_PROJECT-3/static/css/main.f1334a90.css.map",
+    "main.acf08544.js.map": "/TOKYO_PROJECT-3/static/js/main.acf08544.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1334a90.css",
+    "static/js/main.acf08544.js"
+  ]
+}
