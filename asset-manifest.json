@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TOKYO_PROJECT-3/static/css/main.f1334a90.css",
-    "main.js": "/TOKYO_PROJECT-3/static/js/main.acf08544.js",
+    "main.js": "/TOKYO_PROJECT-3/static/js/main.5196cf2a.js",
     "static/media/Orangeyellows.jpg": "/TOKYO_PROJECT-3/static/media/Orangeyellows.d32c5505d3c34b8aa7ef.jpg",
     "static/media/Multis.jpg": "/TOKYO_PROJECT-3/static/media/Multis.41792454d561d1e19bca.jpg",
     "static/media/MccGrey.png": "/TOKYO_PROJECT-3/static/media/MccGrey.6de6096db4f1807ca6af.png",
@@ -16,10 +16,10 @@
     "static/media/Reds.jpg": "/TOKYO_PROJECT-3/static/media/Reds.a606ed8419fd2c4cedd1.jpg",
     "index.html": "/TOKYO_PROJECT-3/index.html",
     "main.f1334a90.css.map": "/TOKYO_PROJECT-3/static/css/main.f1334a90.css.map",
-    "main.acf08544.js.map": "/TOKYO_PROJECT-3/static/js/main.acf08544.js.map"
+    "main.5196cf2a.js.map": "/TOKYO_PROJECT-3/static/js/main.5196cf2a.js.map"
   },
   "entrypoints": [
     "static/css/main.f1334a90.css",
-    "static/js/main.acf08544.js"
+    "static/js/main.5196cf2a.js"
   ]
 }
